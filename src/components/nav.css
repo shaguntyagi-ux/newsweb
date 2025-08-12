@@ -1,0 +1,46 @@
+.nav-item:hover{
+    text-decoration: underline;
+
+}
+.img1{
+    width: 150px;
+    
+
+}
+.nav-link  {
+    margin-top: 20px;
+}
+.child{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    /* background-color: red; */
+    margin-left: 50px;
+    margin-top: 50px;
+     
+}
+/* .navbar{
+    background-color: #0d6efd;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    /* margin-bottom: 200px; */
+
+/* } */
+/* .top{
+    margin-top: 300px;
+} */ 
+@media (max-width:400px){
+    .child{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    /* background-color: red; */
+    margin-left: 50px;
+    margin-top: 50px;
+  
+}
+
+}
