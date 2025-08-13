@@ -9,7 +9,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom'
 const App=()=> {
  
     return (
-         <BrowserRouter>
+         <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route exect path='/' element={ <SearchInput key='business'  category='business' pagesize='3' />}  />
         <Route exect path='/Business' element={ <SearchInput key='business'  category='business' pagesize='3' />}  />
